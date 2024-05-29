@@ -1,0 +1,7 @@
+service: bento:ChatTTSService
+name: chattts
+include:
+  - ChatTTS/
+  - bento.py
+python:
+  requirements_txt: requirements.txt
